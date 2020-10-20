@@ -9,7 +9,7 @@ import getSellAction from './actions/getSellAction';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import Left from './components/titleTab';
+// import Left from './components/titleTab';
 
 const App = props => {
   useEffect(() => {
@@ -42,7 +42,7 @@ const App = props => {
                   </thead>
                   <tbody>
                       <tr style={{textAlign : "center"}}>
-                          <td><Left data={props.buy}/></td>
+                          {/* <td><Left data={props.buy}/></td> */}
                           <td><ValueExchange data={props.buy}/></td>
                           <td><ValueExchange data={props.exchange}/></td>
                           <td><ValueExchange data={props.sell}/></td>
