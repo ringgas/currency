@@ -8,7 +8,7 @@ import getBuyAction from './actions/getBuyAction';
 import getSellAction from './actions/getSellAction';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import KeyName from './components/keyName';
+
 import Left from './components/titleTab';
 
 const App = props => {
