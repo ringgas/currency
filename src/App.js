@@ -17,7 +17,7 @@ const App = props => {
     props.getBuy();
     props.getSell();
 
-    // eslint-enable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
