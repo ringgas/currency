@@ -10,14 +10,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Left from './components/titleTab';
 
-const App = props => {
-  useEffect(() => {
+
     props.getExchange();
     props.getBuy();
     props.getSell();
 
     
-  }, []);
+ 
 
   return (
     <div className="body">
