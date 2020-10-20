@@ -13,11 +13,14 @@ import Left from './components/titleTab';
 
 const App = props => {
   useEffect(() => {
-    props.getExchange();
-    props.getBuy();
-    props.getSell();
+   
+      props.getExchange();
+      props.getBuy();
+      props.getSell();
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  
+
+    // eslint-disable-next-line
   }, []);
 
   return (
