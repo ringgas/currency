@@ -1,4 +1,4 @@
-//Initial State
+
 const initialExchange = [];
 
 const getExchangeReducer = (state = initialExchange, action) => {

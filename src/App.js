@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-// import logo from './logo.svg';
+
 import { connect } from 'react-redux';
 import { Container,Row,Col,Table } from 'react-bootstrap';
 import ValueExchange from './components/valueExchange';
